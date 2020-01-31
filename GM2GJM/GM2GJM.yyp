@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "b2c60429-cc21-4e1c-8b9d-bf66debce2a1",
+            "Value": {
+                "id": "c0ad413b-d2ad-4a60-bb27-f8a7c628aeb2",
+                "resourcePath": "objects\\movementObject\\movementObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c14f6a67-609e-4548-bd3b-b884022ed1b2",
             "Value": {
                 "id": "1328c681-c078-4aed-90a5-2e2a4d3b96a1",
