@@ -199,10 +199,18 @@
             }
         },
         {
+
             "Key": "c0c26691-4a2d-4a87-a9f0-504b28fa4072",
             "Value": {
                 "id": "cf580e8d-f8fb-455f-9dad-81ce4887a496",
                 "resourcePath": "objects\\objStats\\objStats.yy",
+          }
+        },
+        {
+            "Key": "b2c60429-cc21-4e1c-8b9d-bf66debce2a1",
+            "Value": {
+                "id": "c0ad413b-d2ad-4a60-bb27-f8a7c628aeb2",
+                "resourcePath": "objects\\movementObject\\movementObject.yy",
                 "resourceType": "GMObject"
             }
         },
