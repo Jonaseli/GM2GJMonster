@@ -34,7 +34,7 @@
             "Key": "0b9fda43-c012-47eb-b7a1-dcd12f01b76e",
             "Value": {
                 "id": "3676872e-6ec6-4b3f-80ce-eb4d8da0d95c",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\playerSprite\\playerSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -122,7 +122,7 @@
             "Key": "7a32139c-6e52-4eaa-9f0e-d5cf1271cbf1",
             "Value": {
                 "id": "53bf9dcc-d209-4b39-ab7f-31f7b964d648",
-                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourcePath": "sprites\\enemySprite\\enemySprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -162,7 +162,7 @@
             "Key": "b1aff45e-a460-456a-a997-158096a1f302",
             "Value": {
                 "id": "228e6f45-a40b-4939-bb2c-a4ad19d2fc58",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourcePath": "sprites\\jsprite0\\jsprite0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -218,7 +218,7 @@
             "Key": "f24a2a66-55b2-4126-9ef6-028fc910d208",
             "Value": {
                 "id": "8e7be261-ebae-4819-a8e4-79afd3209bee",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\jroom0\\jroom0.yy",
                 "resourceType": "GMRoom"
             }
         }
