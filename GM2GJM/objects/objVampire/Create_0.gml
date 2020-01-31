@@ -1,8 +1,4 @@
-/// @description Insert description here
+/// @description Movements and Traits
 // You can write your code in this editor
-
-// Inherit the parent event
-event_inherited();
-
-health = 1;
-
+move_x = x;
+move_y = y;
