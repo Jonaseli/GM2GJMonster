@@ -159,6 +159,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "b1aff45e-a460-456a-a997-158096a1f302",
             "Value": {
                 "id": "228e6f45-a40b-4939-bb2c-a4ad19d2fc58",
@@ -179,6 +180,12 @@
             "Value": {
                 "id": "d4fc4775-eb98-4dd3-abc7-5d5d2f1456f8",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+=======
+            "Key": "bae3eada-8cc7-4ec9-ab07-a69a7a1ab2d5",
+            "Value": {
+                "id": "44fd13fe-742b-4c53-9bbe-eac740affaf0",
+                "resourcePath": "objects\\object0\\object0.yy",
+>>>>>>> a02b4e2112cb23d66bf86e4b8a90ce9cd083c211
                 "resourceType": "GMObject"
             }
         },
