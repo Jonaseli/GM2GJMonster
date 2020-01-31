@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "dbc9e5c8-419f-4078-9921-8e1dcb63e234",
+            "Value": {
+                "id": "1f1c8d09-946a-4a9b-9e32-72dc4b023c12",
+                "resourcePath": "objects\\objVampire\\objVampire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6b326a9-10cd-448d-9cf0-045e3498ea65",
             "Value": {
                 "id": "e05d4c99-c797-44a6-8443-935174d9245e",
