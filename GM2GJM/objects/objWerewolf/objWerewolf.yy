@@ -1,23 +1,33 @@
 {
-    "id": "88007ed6-b57e-4afb-8efb-b823812e9dc2",
+    "id": "c79faa5d-286e-4127-bc1f-fec0523b7e59",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objStats",
+    "name": "objWerewolf",
     "eventList": [
         {
-            "id": "02e7302e-a152-4443-a248-682ca3f83d6f",
+            "id": "b6e67b04-ea47-4fcf-917b-31f2d33a97d6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "88007ed6-b57e-4afb-8efb-b823812e9dc2"
+            "m_owner": "c79faa5d-286e-4127-bc1f-fec0523b7e59"
+        },
+        {
+            "id": "07349331-72b0-4f88-8a06-ca6091237df0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c79faa5d-286e-4127-bc1f-fec0523b7e59"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c544eb76-9692-4892-bee3-a017e5fde65b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "14556563-39d3-4b55-905e-179d2359dd66",
     "visible": true
 }
