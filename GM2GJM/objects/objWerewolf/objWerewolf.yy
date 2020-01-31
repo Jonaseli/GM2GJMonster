@@ -1,28 +1,28 @@
 {
-    "id": "dbc9e5c8-419f-4078-9921-8e1dcb63e234",
+    "id": "b3e70611-77b1-40f6-bec8-2b02198c12a2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objVampire",
+    "name": "objWerewolf",
     "eventList": [
         {
-            "id": "c1ddbe68-1863-40eb-9496-83ad40cebe15",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "dbc9e5c8-419f-4078-9921-8e1dcb63e234"
-        },
-        {
-            "id": "61d4751c-95b1-4dd5-bd33-b6b712fe44f2",
+            "id": "31a85921-416d-4e42-bb4d-797b15f5029c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "dbc9e5c8-419f-4078-9921-8e1dcb63e234"
+            "m_owner": "b3e70611-77b1-40f6-bec8-2b02198c12a2"
+        },
+        {
+            "id": "aab6d001-fbe1-4d01-8609-ee05f075bb59",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b3e70611-77b1-40f6-bec8-2b02198c12a2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -17,7 +17,7 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	}
 	
 	
-/*
+
 if(place_meeting(x,y,objEnemy){
 	health - objEnemy.damage;
-}*/
+}
