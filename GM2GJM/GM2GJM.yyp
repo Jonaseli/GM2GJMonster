@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1a423510-d72f-4ef1-a00d-ffa8c81f83c1",
+            "Value": {
+                "id": "12773a5d-63fa-44f5-9e59-352d2263ee5a",
+                "resourcePath": "sprites\\sprButton\\sprButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "253e82c9-2e24-47f9-b321-023d45c1272a",
             "Value": {
                 "id": "c878e609-ac92-4113-8488-4d0d7a2c3ac6",
@@ -47,11 +55,35 @@
             }
         },
         {
+            "Key": "2bfd3c14-51bd-409d-a484-af71eb9c2019",
+            "Value": {
+                "id": "3e7f220e-9b4e-45a2-a7e0-09295d3da2ea",
+                "resourcePath": "objects\\objButtonVitality\\objButtonVitality.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32d03fc5-8695-44a7-b18a-2a903d45bede",
             "Value": {
                 "id": "5bd34de9-91f6-41dd-ab92-ea65d80d5c6e",
                 "resourcePath": "objects\\objWall\\objWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "335fcac8-66b3-4254-b150-a337ffc35360",
+            "Value": {
+                "id": "ca723f86-2202-476d-a1e5-af958f7b9d2d",
+                "resourcePath": "objects\\objUpgradeStats\\objUpgradeStats.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "403817ff-aee6-4b75-a368-daf2271d44d3",
+            "Value": {
+                "id": "37ada68f-1741-4707-a077-83ad8526e032",
+                "resourcePath": "views\\403817ff-aee6-4b75-a368-daf2271d44d3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -165,6 +197,14 @@
                 "resourcePath": "sprites\\jsprite0\\jsprite0.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+
+            "Key": "c0c26691-4a2d-4a87-a9f0-504b28fa4072",
+            "Value": {
+                "id": "cf580e8d-f8fb-455f-9dad-81ce4887a496",
+                "resourcePath": "objects\\objStats\\objStats.yy",
+          }
         },
         {
             "Key": "b2c60429-cc21-4e1c-8b9d-bf66debce2a1",
