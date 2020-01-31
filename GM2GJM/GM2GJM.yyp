@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "5679b932-f043-4ad3-8652-3fc8f79866fe",
+            "Value": {
+                "id": "b5f42c0b-e46e-4c14-ab3f-5db6158dbd6d",
+                "resourcePath": "objects\\objMummy\\objMummy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63789123-c977-47da-a5a6-fd5c80410ceb",
             "Value": {
                 "id": "ac4482c1-9241-4a20-8de5-a9b3a2b2acea",
@@ -180,6 +188,14 @@
                 "id": "228e6f45-a40b-4939-bb2c-a4ad19d2fc58",
                 "resourcePath": "sprites\\jsprite0\\jsprite0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3e70611-77b1-40f6-bec8-2b02198c12a2",
+            "Value": {
+                "id": "777e5df4-5568-4bbb-abea-edf1610197ec",
+                "resourcePath": "objects\\objWerewolf\\objWerewolf.yy",
+                "resourceType": "GMObject"
             }
         },
         {
