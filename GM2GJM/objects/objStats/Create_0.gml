@@ -1,3 +1,3 @@
-hp = 3;
-attack = 1;
-defense = 1;
+hp = 0;
+attack = 0;
+defense = 0;

@@ -138,7 +138,7 @@
             "Key": "98659dfb-0d8d-4148-a73b-8c50390685d0",
             "Value": {
                 "id": "62c877f7-b65a-48f3-8b52-359487c1d2cf",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\lsprite0\\lsprite0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "f24a2a66-55b2-4126-9ef6-028fc910d208",
             "Value": {
                 "id": "8e7be261-ebae-4819-a8e4-79afd3209bee",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\lroom1\\lroom1.yy",
                 "resourceType": "GMRoom"
             }
         }
