@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "0b9fda43-c012-47eb-b7a1-dcd12f01b76e",
+            "Value": {
+                "id": "3676872e-6ec6-4b3f-80ce-eb4d8da0d95c",
+                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "253e82c9-2e24-47f9-b321-023d45c1272a",
             "Value": {
                 "id": "c878e609-ac92-4113-8488-4d0d7a2c3ac6",
                 "resourcePath": "views\\253e82c9-2e24-47f9-b321-023d45c1272a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "32d03fc5-8695-44a7-b18a-2a903d45bede",
+            "Value": {
+                "id": "5bd34de9-91f6-41dd-ab92-ea65d80d5c6e",
+                "resourcePath": "objects\\objWall\\objWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -103,6 +119,14 @@
             }
         },
         {
+            "Key": "7a32139c-6e52-4eaa-9f0e-d5cf1271cbf1",
+            "Value": {
+                "id": "53bf9dcc-d209-4b39-ab7f-31f7b964d648",
+                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84642256-79b7-4da5-96ff-974619c04e6c",
             "Value": {
                 "id": "5584f6a2-a815-4d75-b3ec-612b3f901ee9",
@@ -132,6 +156,30 @@
                 "id": "de2311c5-5199-46d4-9843-b1e197ff8b8b",
                 "resourcePath": "views\\ad734d79-a8a0-4471-8813-cad16a245c0b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1aff45e-a460-456a-a997-158096a1f302",
+            "Value": {
+                "id": "228e6f45-a40b-4939-bb2c-a4ad19d2fc58",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c14f6a67-609e-4548-bd3b-b884022ed1b2",
+            "Value": {
+                "id": "1328c681-c078-4aed-90a5-2e2a4d3b96a1",
+                "resourcePath": "objects\\objEnemy\\objEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c544eb76-9692-4892-bee3-a017e5fde65b",
+            "Value": {
+                "id": "d4fc4775-eb98-4dd3-abc7-5d5d2f1456f8",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
