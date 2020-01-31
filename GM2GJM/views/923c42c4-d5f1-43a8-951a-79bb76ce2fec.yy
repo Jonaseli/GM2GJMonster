@@ -1,0 +1,13 @@
+{
+    "id": "923c42c4-d5f1-43a8-951a-79bb76ce2fec",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "923c42c4-d5f1-43a8-951a-79bb76ce2fec",
+    "children": [
+        
+    ],
+    "filterType": "GMObject",
+    "folderName": "objects",
+    "isDefaultView": false,
+    "localisedFolderName": "ResourceTree_Objects"
+}
