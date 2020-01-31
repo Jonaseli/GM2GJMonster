@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "41f8da9d-119f-425d-917c-6e77b11df728",
-            "Value": {
-                "id": "7b8a5081-0d54-4771-b75a-3f5cc03a3194",
-                "resourcePath": "objects\\ClickManager\\ClickManager.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "50d22588-259e-4342-a3d7-64c5bafbb7d4",
             "Value": {
                 "id": "d08e2204-7275-4fe5-ad6b-7b27d85489df",
