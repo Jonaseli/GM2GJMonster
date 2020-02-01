@@ -1,7 +1,10 @@
-baseHp = 0;
-baseDmg = 0;
-baseAttackSpeed = 0;
+baseHp = 1;
+baseDmg = 1;
+baseAttackSpeed = 1;
 
-vitality = 0;
-strength = 0;
-dexterity = 0;
+vitality = 1;
+strength = 1;
+dexterity = 1;
+
+movementSpeed = 1;
+agroRange = 200;

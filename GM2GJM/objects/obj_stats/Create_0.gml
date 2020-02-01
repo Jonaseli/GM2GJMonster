@@ -1,4 +1,4 @@
 /// @description modifiers
-global.vitality = 0;
-global.strength = 0;
-global.dexterity = 0;
+global.vitality = 1;
+global.strength = 1;
+global.dexterity = 1;

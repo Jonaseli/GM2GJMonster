@@ -41,7 +41,7 @@
         {
             "Key": "0b8e1733-f765-4536-bbc5-480e58886dbf",
             "Value": {
-                "id": "5c6f195a-70aa-48e4-84fc-5df4723bb0bd",
+                "id": "5aa0bb45-6aef-4bd1-bd0e-94673a8ea629",
                 "resourcePath": "objects\\objMummy\\objMummy.yy",
                 "resourceType": "GMObject"
             }
@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "3fe9e955-1bbc-47cc-b452-c81f9223e70d",
+            "Value": {
+                "id": "88c6d186-07bd-4863-8c01-0a097c4b516e",
+                "resourcePath": "objects\\objHitbox\\objHitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43efaad5-f3a1-4689-ac9c-709fe8bec759",
+            "Value": {
+                "id": "d3e06673-fbec-44ca-ad3d-b766987b49e3",
+                "resourcePath": "objects\\objSolider\\objSolider.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4477cf4b-7b16-4e37-a107-8d08174305f5",
             "Value": {
                 "id": "cbf6a754-a1ed-40d6-9dc3-0df495a3ffd7",
@@ -140,6 +156,14 @@
                 "id": "62aae5b1-6508-421d-8b08-d431ab2a376a",
                 "resourcePath": "datafiles_yy\\mummySprite\\layers\\90a2ba4e-2207-4fb5-8799-5aec6a0d7c5d\\3075fe6f-dd5d-4f9f-a2ea-43f4f0f4a415.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5fff3644-aaa6-4281-9302-624c2d674c45",
+            "Value": {
+                "id": "67a5a96b-a56f-4d18-8959-559e78646e12",
+                "resourcePath": "sprites\\PoliceOfficer\\PoliceOfficer.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "6b481d47-c54c-4365-9984-5c31bd7c8bfb",
+            "Value": {
+                "id": "c8f2b8d3-c3ca-4b4c-835c-1702e2c82dc5",
+                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "70f1a7df-3205-4160-a4d7-8e9a54286c3c",
             "Value": {
                 "id": "3e9583a2-eca6-42dd-b3da-6a7d6f91d5f8",
@@ -204,6 +236,14 @@
                 "id": "53bf9dcc-d209-4b39-ab7f-31f7b964d648",
                 "resourcePath": "sprites\\enemySprite\\enemySprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ac441a6-0059-49e1-969d-d56c6d1b9b60",
+            "Value": {
+                "id": "31fd68ff-ed3b-4a5f-98d2-ec0fef8e441b",
+                "resourcePath": "views\\7ac441a6-0059-49e1-969d-d56c6d1b9b60.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -287,6 +327,14 @@
             }
         },
         {
+            "Key": "b8fd6483-19d9-4acd-86c2-0b31dde0dd91",
+            "Value": {
+                "id": "122620db-738e-48d4-9f35-e17c93972189",
+                "resourcePath": "objects\\objPoliceOfficer\\objPoliceOfficer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c10f0328-ee44-4032-9a35-e63ad7b4bd0a",
             "Value": {
                 "id": "32df9916-be46-4055-b217-00d1b48b6d88",
@@ -305,7 +353,7 @@
         {
             "Key": "c544eb76-9692-4892-bee3-a017e5fde65b",
             "Value": {
-                "id": "d4fc4775-eb98-4dd3-abc7-5d5d2f1456f8",
+                "id": "6f141c44-4dfa-41bf-bbe6-87650feda6fa",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
             }
@@ -313,7 +361,7 @@
         {
             "Key": "c79faa5d-286e-4127-bc1f-fec0523b7e59",
             "Value": {
-                "id": "59e020ec-069f-4dc4-8a2a-162fd750de27",
+                "id": "da75d17c-c8b8-4ddf-a663-7cc3d8a2aa96",
                 "resourcePath": "objects\\objWerewolf\\objWerewolf.yy",
                 "resourceType": "GMObject"
             }
@@ -321,7 +369,7 @@
         {
             "Key": "cc81d2b3-bfe3-4f47-8059-6f3c834607fa",
             "Value": {
-                "id": "819701c3-14e3-4685-9fc0-303f4acf1f68",
+                "id": "9610b9c8-0e42-428f-8c23-0994075f313c",
                 "resourcePath": "objects\\objVampire1\\objVampire1.yy",
                 "resourceType": "GMObject"
             }
@@ -364,6 +412,14 @@
                 "id": "55a8e9f5-7cbd-4eb3-9e0c-e207638be95b",
                 "resourcePath": "views\\daa902cb-3832-45ae-bfad-b93c3559e322.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "db0bc0d2-fcb8-437c-b002-dd1915f9ada3",
+            "Value": {
+                "id": "4c7994bf-9efe-4076-b52a-3c68e758e308",
+                "resourcePath": "sprites\\attackBoxSprite\\attackBoxSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,1 @@
-if(place_meeting(x, y, objPlayer)){
-	//objPlayer.baseDmg
-}
+/// @description Enemy damage down time.

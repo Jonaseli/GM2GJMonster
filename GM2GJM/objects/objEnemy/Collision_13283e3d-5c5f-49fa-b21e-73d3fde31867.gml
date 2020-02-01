@@ -1,0 +1,1 @@
+move_towards_point(random_range(0,1024), random_range(0,1024), movementSpeed);
