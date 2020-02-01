@@ -8,8 +8,10 @@ vitality = 1 * difficultyModifier;
 strength = 1 * difficultyModifier;
 dexterity = 1 * difficultyModifier;
 
-movementSpeed = 1;
-agroRange = 200;
+movementSpeed = 2.2;
+agroRange = 300;
+maintainedDistance = 1;
+strollDistance = 50;
 
 remainingHP = baseHP * vitality;
 damage = baseDmg * strength;

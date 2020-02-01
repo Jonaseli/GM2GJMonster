@@ -3,5 +3,20 @@
 
 //move_towards_point(random_range(0,1024), random_range(0,1024), movementSpeed);
 
-	randX = random_range(2048,3073);
-	randY = random_range(2048,3073);
+maxX = x - (1024 - 64);
+minX = x + 64;
+maxY = y - (3072 - 64);
+minY = y + 64;
+	
+again = true;
+	
+while(again){
+	chosenX = random_range(x - strollDistance, x + strollDistance);
+	chosenY = random_range(y - strollDistance, y + strollDistance);
+	
+	if((chosenX > minX || chosenX < maxX) && (chosenY > minY || chosenY < maxY)){
+		if(collision_point( chosenX, chosenY, objWall, true, true)){
+			again = false;
+		}	
+	}	
+}

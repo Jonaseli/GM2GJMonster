@@ -1,7 +1,8 @@
 
 if (distance_to_object(objPlayer) < agroRange){
-	movementSpeed = 1;
-	mp_potential_step(objPlayer.x, objPlayer.y, movementSpeed, true);
+	if(distance_to_object(objPlayer) > maintainedDistance ){
+		mp_potential_step(objPlayer.x, objPlayer.y, movementSpeed, true);
+	}
 } else {
 	if (alarm[1] == -1){
 		alarm[1] = room_speed * 5;
@@ -10,29 +11,6 @@ if (distance_to_object(objPlayer) < agroRange){
 	//if (alarm[1] == -1)
 	//alarm[1] = room_speed * 5;
 }
-
-
-/*
-if (!place_meeting(x, y, objPlayer) && !place_meeting(x, y, objWall)){
-	
-		if (x < objPlayer.x){
-			x++;
-		}
-
-		if ( x > objPlayer.x){
-			x--;
-		}
-
-		if ( y < objPlayer.y){
-			y++;
-		}
-
-		if ( y > objPlayer.y){
-			y--;
-		}
-	
-}
-*/
 
 //Kill object if HP <= 0
 if(baseHP <= 0){

@@ -7,12 +7,12 @@ if (levelType != undefined) // create enemy data structure
 	if (levelType = "chaos")
 	{
 		array = arrChaos;
-		enemyCount = round(random_range(7, 15));
+		enemyCount = round(random_range(1, 2));
 	}
 	if (levelType = "tough")
 	{
 		array = arrTough;
-		enemyCount = round(random_range(2, 4));
+		enemyCount = round(random_range(1, 2));
 	}
 	if (levelType = "loot")
 	{
@@ -31,7 +31,7 @@ if (levelType != undefined) // create enemy data structure
 		var rndIndex = round(random_range(0,array_length_1d(array)-1));
 		var enemyType = array[rndIndex];
 		// spawn settings
-		var len = random_range(96, 384);
+		var len = random_range(96, 130);
 		var dir = (360 / enemyCount) * i;
 		
 		var xPos = lengthdir_x(len, dir);
@@ -39,7 +39,7 @@ if (levelType != undefined) // create enemy data structure
 
 		var enemy = instance_create_layer(
 			(room_width / 2) + xPos,
-			(room_height / 4) * 3 + yPos,
+			(room_height / 6) * 5 + yPos,
 			"layer_enemy", enemyType
 		);
 	}

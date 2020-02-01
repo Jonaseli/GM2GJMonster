@@ -4,7 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-if (random_range(0, 10) < 5){
-	instance_create_layer(x + (sprite_width * 2), y, "Instances", objPoliceDog);
-}
-
+movementSpeed = 10;
+agroRange = 500;
