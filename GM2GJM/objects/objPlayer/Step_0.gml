@@ -28,13 +28,13 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	x += hMove;
 	y += vMove;
 	
-	if(remainingHP = 0){
+	if(remainingHP <= 0){
 		instance_destroy(id);
 	}
 	
 		
 	
-if(mouse_check_button_pressed(mb_left)){
+if(mouse_check_button(mb_left)){
 		pressedIsTrue = true;
 	}
 	

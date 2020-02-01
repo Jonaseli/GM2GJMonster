@@ -30,6 +30,11 @@ if (!place_meeting(x, y, objPlayer) && !place_meeting(x, y, objWall)){
 }
 */
 
+//Kill object if HP <= 0
+if(baseHP <= 0){
+	instance_destroy(id);
+}
+
 //Enemy collides with player, and deals base dmg. BaseAttackspeed is cooldown.
 if (place_meeting(x, y, objPlayer) && alarm[0] == -1){
 	objPlayer.remainingHP -= baseDmg;

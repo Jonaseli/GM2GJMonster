@@ -6,5 +6,5 @@ event_inherited();
 
 health = objPlayer.baseHealth;
 vitality = global.vitality + 1;
-strength = global.strength +2;
+strength = objPlayer.baseDmg + global.strength +2;
 dexterity = global.dexterity + 3;

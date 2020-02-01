@@ -1,4 +1,4 @@
-baseHp = 1;
+baseHP = 1;
 baseDmg = 1;
 baseAttackSpeed = 1;
 
@@ -8,3 +8,4 @@ dexterity = 1;
 
 movementSpeed = 1;
 agroRange = 200;
+remainingHP = baseHP * vitality;
