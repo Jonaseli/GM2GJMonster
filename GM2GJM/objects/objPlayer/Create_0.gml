@@ -6,11 +6,17 @@
 
 health = 10
 //basic start
-baseHealth = health *global.vitality;
-remainingHP = baseHealth;
-baseDmg = 1* global.strength;
-baseAttackSpeed = 1*global.dexterity;
+vitality = 1;
+strength = 1;
+dexterity = 0.3;
 
+//stats
+baseHealth = health *vitality; 
+remainingHP = baseHealth;
+baseDmg = 1* strength;
+
+baseAttackSpeed = 0 + dexterity;
+//mouse handling
 pressedIsTrue = false;
 
 thisMouse_x = mouse_x;

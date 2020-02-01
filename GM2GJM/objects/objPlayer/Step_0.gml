@@ -17,6 +17,11 @@ if (distance_to_point(move_x,move_y)) > 0.5
 		speed= 0;
 	}
 	*/
+	remainingHP = baseHealth;
+	remainingHP = remainingHP + vitality;
+	baseDmg = strength; 
+	baseAttackSpeed = dexterity;
+
 	W = keyboard_check(ord("W"));
 	S = keyboard_check(ord("S"));
 	A = keyboard_check(ord("A"));
@@ -25,10 +30,21 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	var hMove = (D - A)*spd;
 	var vMove = (S - W)*spd;
 
+/*
+	if(hMove){
+		x += hMove;
+		if(place_meeting(x, y, objWall)){
+			x -=hMove;
+		} else {
+			x +=hMove;
+		}
+	}
+	*/
+
 	x += hMove;
 	y += vMove;
 	
-	if(remainingHP <= 0){
+	if(remainingHP = 0){
 		instance_destroy(id);
 	}
 	
@@ -45,9 +61,9 @@ if(mouse_check_button(mb_left)){
 		alarm[0] = (room_speed - 40) / baseAttackSpeed;
 	}
 	
+
 	
-	
-	
+
 
 
 	

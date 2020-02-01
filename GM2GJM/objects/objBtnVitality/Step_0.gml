@@ -5,7 +5,7 @@ if (position_meeting(mouse_x, mouse_y, id))
 var mb_pressed = mouse_check_button_pressed(mb_left);
 if (mb_pressed)
 {
-	global.vitality += 1;
+	objPlayer.vitality += 3;
 }
 	// visuals
 	image_index = 1;

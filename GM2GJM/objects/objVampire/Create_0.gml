@@ -4,6 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-vitality = objPlayer.baseHealth+15;
-strength = objPlayer.baseDmg +1;
-dexterity = objPlayer.baseAttackSpeed + 0.2;
+
+vitality = objPlayer.baseHealth -10;
+strength = objPlayer.baseDmg +2;
+dexterity = objPlayer.baseAttackSpeed + 0.5;

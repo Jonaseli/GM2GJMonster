@@ -1,48 +1,48 @@
 {
-    "id": "c544eb76-9692-4892-bee3-a017e5fde65b",
+    "id": "2be9db4c-cfb4-4cad-904e-35fb006d7808",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objPlayer",
     "eventList": [
         {
-            "id": "a4cc46e2-b323-458a-ae28-7815441cc879",
+            "id": "955e427f-a26d-4487-a498-aa221d713987",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "c544eb76-9692-4892-bee3-a017e5fde65b"
+            "m_owner": "2be9db4c-cfb4-4cad-904e-35fb006d7808"
         },
         {
-            "id": "163fc68d-f0b3-4eef-90cf-e564df0e77d3",
+            "id": "397b21fc-df85-42ba-8ac1-8b10136c6547",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c544eb76-9692-4892-bee3-a017e5fde65b"
+            "m_owner": "2be9db4c-cfb4-4cad-904e-35fb006d7808"
         },
         {
-            "id": "0fd31a03-9699-47f7-9639-cc69ae5de245",
+            "id": "34b9e546-dd68-4451-85cd-8c93acbf8bb3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "c544eb76-9692-4892-bee3-a017e5fde65b"
+            "m_owner": "2be9db4c-cfb4-4cad-904e-35fb006d7808"
         },
         {
-            "id": "b03aac8a-5eca-484a-841a-1ecd0034e3e9",
+            "id": "9d9ae643-1ffa-4f01-835a-b3ee26ed1fbd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "c544eb76-9692-4892-bee3-a017e5fde65b"
+            "m_owner": "2be9db4c-cfb4-4cad-904e-35fb006d7808"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
