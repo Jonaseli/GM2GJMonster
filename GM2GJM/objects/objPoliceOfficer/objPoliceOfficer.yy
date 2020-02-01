@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objPoliceOfficer",
     "eventList": [
-        
+        {
+            "id": "ef59bff4-92a5-4beb-86cd-a32d400362f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b8fd6483-19d9-4acd-86c2-0b31dde0dd91"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

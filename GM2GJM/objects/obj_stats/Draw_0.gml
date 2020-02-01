@@ -1,3 +1,4 @@
+/*
 draw_text(x, y + 174, "Vitality: " + string(objPlayer.vitality));
 draw_text(x, y + 0, "Strength: " + string(objPlayer.strength));
 draw_text(x, y + 32, "Dexterity: " + string(objPlayer.dexterity));

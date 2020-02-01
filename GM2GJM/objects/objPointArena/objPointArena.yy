@@ -1,14 +1,14 @@
 {
-    "id": "43efaad5-f3a1-4689-ac9c-709fe8bec759",
+    "id": "4fb2716a-e1a0-4cd7-a52e-650c6b302754",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSolider",
+    "name": "objPointArena",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "c14f6a67-609e-4548-bd3b-b884022ed1b2",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6b481d47-c54c-4365-9984-5c31bd7c8bfb",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

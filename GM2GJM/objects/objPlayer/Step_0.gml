@@ -30,18 +30,28 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	var hMove = (D - A)*spd;
 	var vMove = (S - W)*spd;
 
-/*
-	if(hMove){
-		x += hMove;
-		if(place_meeting(x, y, objWall)){
-			x -=hMove;
-		} else {
-			x +=hMove;
-		}
+	//Check for horizontal collisions and then move if we can
+	if (place_meeting(x+hMove,y,objWall))
+	{
+    //move as close as we can
+    while (!place_meeting(x+sign(hMove),y,objWall))
+	    {
+	        x = x + sign(hMove);
+	    }
+	    hMove = 0;
 	}
-	*/
-
 	x += hMove;
+
+	//Check for vertical collisions and then move if we can
+	if (place_meeting(x,y+vMove,objWall))
+	{
+	    //move as close as we can
+	    while (!place_meeting(x,y+sign(vMove),objWall))
+	    {
+	        y = y + sign(vMove);
+	    }
+	    vMove = 0;
+	}
 	y += vMove;
 	
 	if(remainingHP = 0){
