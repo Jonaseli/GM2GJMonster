@@ -64,3 +64,35 @@ if(mouse_check_button(mb_left)){
 			alarm[0] = attackSpeed;
 		}
 	}
+	
+// sprite animation
+arrVampireSpr = [sprVampireIdle, sprVampireSideways, sprVampireDown, sprVampireUp];
+arrMummySpr = [sprMummyIdle, sprMummySideways, sprMummyDown, sprMummyUp];
+
+var me = undefined;
+if (instance_exists(id)) me = id.object_index;
+var sprArray;
+
+if (me != undefined)
+{
+	if (me = objVampire) sprArray = arrVampireSpr;
+	else if (me = objMummy) sprArray = arrMummySpr;
+	else sprArray = arrVampireSpr;
+
+
+	if (abs(vMove) > 0)
+	{
+		if (vMove < 0) sprite_index = sprArray[3];
+		if (vMove > 0) sprite_index = sprArray[2]; 
+	}
+	else if (abs(hMove) > 0)
+	{
+		sprite_index = sprArray[1];
+		image_xscale = sign(hMove);
+	}
+	else
+	{
+		sprite_index = sprArray[0];
+	}
+}
+

@@ -41,7 +41,7 @@ for (var i = 0; i < amount; i++)
 			if (rndLvl > 0) levelType = "chaos";
 			if (rndLvl > 50) levelType = "tough";
 			if (i == amount-1) levelType = "boss";
-			if (i == round(amount/2) && (prevLvl == "chaos" || prevLvl == "tough")) levelType = "loot";
+			//if (i == round(amount/2) && (prevLvl == "chaos" || prevLvl == "tough")) levelType = "loot";
 			
 			
 			loop = false;

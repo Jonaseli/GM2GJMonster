@@ -1,1 +1,1 @@
-text = "Hello";
+text = "Monster Maze";

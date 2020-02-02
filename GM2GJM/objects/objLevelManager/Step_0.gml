@@ -1,6 +1,16 @@
 // counters
 enemyCounter = instance_number(objEnemy);
 
+if (startGame == true && enemyCounter == 0)
+{
+	objMenu.pause = true;
+	currentLevel++;
+	
+	if (instance_exists(objPlayer)) instance_destroy(objPlayer);
+	if (instance_exists(objWallArena)) instance_destroy(objWallArena);
+	
+	startGame = false;
+}
 
 // create arena
 if (makeArena == true)
@@ -9,7 +19,11 @@ if (makeArena == true)
 
 	for (var h = 0; h < 4; h++)
 	{
+		if(levelType == "boss"){
+		var rndVal = round(random_range(1, array_length_1d(arrTempBoss)-1));
+		} else {
 		var rndVal = round(random_range(1, array_length_1d(arrTemplates)-1));
+		}
 		ds_list_add(tempList, rndVal);
 	}
 

@@ -7,9 +7,11 @@ if (objLevelManager.currentLevel = btnId && objLevelManager.enemyCounter == 0)
 		var mb_pressed = mouse_check_button_pressed(mb_left);
 		if (mb_pressed)
 		{
-			//objLevelManager.levelType = levelType;
-			objMenu.pause = false;
-			objLevelManager.makeArena = true;
+				objLevelManager.levelType = levelType;
+				objMenu.pause = false;
+				objLevelManager.makeArena = true;
+		
+			
 			// visuals
 			final_state = true;
 		}

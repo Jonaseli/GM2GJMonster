@@ -14,22 +14,25 @@ if (grid != undefined)
 			switch(value) // 0 air, 1 wall, 2 enemy, 3, wall/air, 4, player 5, boss
 			{
 				case 1:
-					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objWall);
+					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objWallArena);
 					break;
 				
 				case 2:
-					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objEnemySpawner);
+					instance_create_layer(x + indent * j, y + indent * i, "layer_enemy", objMakeEnemy);
 					break;
 					
 				case 3:
-					show_message("Case 3");
-					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objLevelManager.character);
+					instance_create_layer(x + indent * j, y + indent * i, "layer_player", objLevelManager.character);
 					break;
 				
 				case 4:
 					var rndVal = random_range(0, 100);
-					if (rndVal < 50) instance_create_layer(x + indent * j, y + indent * i, "layer_map", objWall);
-					break;			
+					if (rndVal < 50) instance_create_layer(x + indent * j, y + indent * i, "layer_map", objWallArena);
+					break;
+				case 5:
+			
+					instance_create_layer(x + indent * j, y + indent * i, "layer_boss", objEnemySpawner);
+					break;	
 			}
 		}
 	}
