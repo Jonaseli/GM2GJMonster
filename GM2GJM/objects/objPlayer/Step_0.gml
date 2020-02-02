@@ -25,7 +25,7 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	*/
 	
 	remainingHP = baseHealth * vitality;
-	dmg = baseDmg + strength;
+	dmg = baseDmg * strength;
 	attackSpeed = baseAttackSpeed / dexterity;
 
 	W = keyboard_check(ord("W"));
