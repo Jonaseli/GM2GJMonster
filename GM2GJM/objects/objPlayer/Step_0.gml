@@ -25,7 +25,7 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	*/
 	
 	remainingHP = baseHealth * vitality;
-	dmg = baseDmg * strength;
+	dmg = baseDmg + strength;
 	attackSpeed = baseAttackSpeed / dexterity;
 
 	W = keyboard_check(ord("W"));
@@ -60,7 +60,7 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	}
 	y += vMove;
 	
-	if(remainingHP = 0){
+	if(remainingHP <= 0){
 		instance_destroy(id);
 	}	
 	
@@ -72,8 +72,8 @@ if(mouse_check_button(mb_left)){
 		thisMouse_x = mouse_x;
 		thisMouse_y = mouse_y;
 
-		instance_create_layer(x + lengthdir_x(70,point_direction(x,y, thisMouse_x, thisMouse_y)),
-		y + lengthdir_y(70,point_direction(x,y, thisMouse_x, thisMouse_y)),"instances", objHitbox);
+		instance_create_layer(x + lengthdir_x(110,point_direction(x,y, thisMouse_x, thisMouse_y)),
+		y + lengthdir_y(110,point_direction(x,y, thisMouse_x, thisMouse_y)),"instances", objHitbox);
 
 		if(instance_exists(objPlayer)){
 			alarm[0] = attackSpeed;

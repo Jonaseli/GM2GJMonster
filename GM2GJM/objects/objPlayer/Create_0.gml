@@ -4,7 +4,7 @@
 //move_y = y;
 
 
-health = 10
+health = 20
 //basic start
 vitality = 1;
 strength = 1;
@@ -13,7 +13,7 @@ dexterity = 3;
 //stats
 baseHealth = health *vitality; 
 remainingHP = baseHealth;
-baseDmg = 1* strength;
+baseDmg = 1 ;
 
 baseAttackSpeed = 120;
 //mouse handling

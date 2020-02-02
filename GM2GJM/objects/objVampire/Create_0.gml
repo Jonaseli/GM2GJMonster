@@ -6,7 +6,7 @@ event_inherited();
 
 pressedRightIsTrue = false;
 vitality = 3;
-strength = 3;
-dexterity = 3;
+strength = 1;
+dexterity = 5;
 
 specialSpeed = 1;

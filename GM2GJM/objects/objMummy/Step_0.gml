@@ -39,7 +39,7 @@
 	}
 	y += vMove;
 	
-	if(remainingHP = 0){
+	if(remainingHP <= 0){
 		instance_destroy(id);
 	}	
 

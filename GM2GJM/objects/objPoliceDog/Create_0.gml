@@ -4,7 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-movementSpeed = 10;
+movementSpeed = 7;
 agroRange = 500;
 
-alarm[2] = room_speed *0.5;
+alarm[2] = room_speed;
+baseDmg = 1;
+baseHP = 4;

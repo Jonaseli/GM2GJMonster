@@ -2,11 +2,11 @@
 event_inherited();
 
 baseDmg = 2;
-baseAttackSpeed = 3;
 
-baseHP = 25;
-baseDmg = 10;
-baseAttackSpeed = 5;
+
+baseHP = 10;
+baseDmg = 3;
+
 
 vitality = 1;
 strength = 1;

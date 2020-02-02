@@ -1,7 +1,7 @@
 difficultyModifier = 1;
 
-baseHP = 1;
-baseDmg = 30;
+baseHP = 10;
+baseDmg = 1;
 baseAttackSpeed = 1;
 
 vitality = 1 * difficultyModifier;
@@ -15,7 +15,7 @@ strollDistance = 350;
 
 remainingHP = baseHP * vitality;
 damage = baseDmg * strength;
-attackSpeed = baseAttackSpeed * dexterity;
+attackSpeed = baseAttackSpeed / dexterity;
 
 chosenX = x;
 chosenY = y;

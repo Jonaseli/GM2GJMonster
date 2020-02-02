@@ -1,4 +1,5 @@
 
+
 if (distance_to_object(objPlayer) < agroRange){
 	if(distance_to_object(objPlayer) > maintainedDistance ){
 		mp_potential_step(objPlayer.x, objPlayer.y, movementSpeed, true);
@@ -20,5 +21,3 @@ if (place_meeting(x, y, objPlayer) && alarm[0] == -1){
 	objPlayer.baseHealth -= baseDmg;
 	alarm[0] = room_speed * baseAttackSpeed;
 }
-
-

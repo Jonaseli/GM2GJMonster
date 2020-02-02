@@ -9,3 +9,7 @@ if (random_range(0, 10) < 5){
 }
 
 alarm[2] = irandom_range(3, 6) * room_speed;
+
+baseDmg = 4;
+
+baseHP = 15;

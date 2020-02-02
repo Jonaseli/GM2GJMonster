@@ -5,4 +5,4 @@ if (alarm[0] == -1){
 			
 }
 
-image_angle = point_direction(x,y, objEnemy.x, objEnemy.y);
+image_angle = point_direction(x,y, objPlayer.x, objPlayer.y);

@@ -5,16 +5,6 @@
     "name": "objMummyBullet",
     "eventList": [
         {
-            "id": "a27c4702-51fd-4083-9e63-f6119e75f2e9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c14f6a67-609e-4548-bd3b-b884022ed1b2",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "bc5ca785-6d69-4c31-9518-24cbf7b28837"
-        },
-        {
             "id": "ac28f24e-0e3e-4abf-9100-c71eb5cd4b5c",
             "modelName": "GMEvent",
             "mvc": "1.0",
