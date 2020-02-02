@@ -17,10 +17,16 @@ if (distance_to_point(move_x,move_y)) > 0.5
 		speed= 0;
 	}
 	*/
+	/*
 	remainingHP = baseHealth;
 	remainingHP = remainingHP + vitality;
 	baseDmg = strength; 
 	baseAttackSpeed = dexterity;
+	*/
+	
+	remainingHP = baseHealth * vitality;
+	dmg = baseDmg * strength;
+	attackSpeed = baseAttackSpeed * dexterity;
 
 	W = keyboard_check(ord("W"));
 	S = keyboard_check(ord("S"));
@@ -56,9 +62,7 @@ if (distance_to_point(move_x,move_y)) > 0.5
 	
 	if(remainingHP = 0){
 		instance_destroy(id);
-	}
-	
-		
+	}	
 	
 if(mouse_check_button(mb_left)){
 		pressedIsTrue = true;
@@ -68,7 +72,12 @@ if(mouse_check_button(mb_left)){
 		thisMouse_x = mouse_x;
 		thisMouse_y = mouse_y;
 
-		alarm[0] = (room_speed - 40) / baseAttackSpeed;
+		instance_create_layer(x + lengthdir_x(70,point_direction(x,y, thisMouse_x, thisMouse_y)),
+		y + lengthdir_y(70,point_direction(x,y, thisMouse_x, thisMouse_y)),"instances", objHitbox);
+
+		if(instance_exists(objPlayer)){
+			alarm[0] = attackSpeed;
+		}
 	}
 	
 

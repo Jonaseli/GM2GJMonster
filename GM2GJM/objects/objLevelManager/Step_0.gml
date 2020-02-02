@@ -7,6 +7,7 @@ if (levelType != undefined) // create enemy data structure
 		instance_create_layer(objPointArena.x, objPointArena.y, "layer_player", character);
 	}
 	
+	/*
 	currentLevel++;
 	balanceValue += 0.25;
 	
@@ -55,6 +56,38 @@ if (levelType != undefined) // create enemy data structure
 		enemy.difficultyModifier += currentLevel/balanceValue;
 	}
 	
+	*/
+	
+	//add obj to spawn.
+	arrRooms = [
+	tempRoomSelect1,
+	tempRoomSelect2,
+	tempRoomSelect3,
+	tempRoomSelect4
+];
+
+
+	
+	for(var i = 0; i < 4; i++){
+		switch(i){
+			case 0:
+				instance_create_layer(0, 2048,"Instances", arrRooms[i]);
+				break;
+				
+			case 1:
+				instance_create_layer(512, 2048,"Instances", arrRooms[i]);
+				break;
+				
+			case 2:
+				instance_create_layer(0, 2580,"Instances", arrRooms[i]);
+				break;
+			
+			case 3:
+				instance_create_layer(512, 2580,"Instances", arrRooms[i]);
+				break;
+		}
+	}
+
 	
 	levelType = undefined;
 }

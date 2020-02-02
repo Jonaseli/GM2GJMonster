@@ -5,8 +5,8 @@
 event_inherited();
 pressedRightIsTrue = false;
 
-vitality = objPlayer.baseHealth + 5;
-strength = objPlayer.baseDmg +5;
-dexterity = objPlayer.baseAttackSpeed + 0.15;
+vitality = 3;
+strength = 3;
+dexterity = 3;
 
 specialSpeed = 0.5;

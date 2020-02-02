@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-baseHP -= objPlayer.baseDmg;
+remainingHP -= objPlayer.dmg;

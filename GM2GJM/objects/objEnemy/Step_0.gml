@@ -11,7 +11,7 @@ if (distance_to_object(objPlayer) < agroRange){
 }
 
 //Kill object if HP <= 0
-if(baseHP <= 0){
+if(remainingHP <= 0){
 	instance_destroy(id);
 }
 

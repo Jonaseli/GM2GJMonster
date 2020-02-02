@@ -8,7 +8,7 @@ health = 10
 //basic start
 vitality = 1;
 strength = 1;
-dexterity = 0.3;
+dexterity = 3;
 
 //stats
 baseHealth = health *vitality; 
