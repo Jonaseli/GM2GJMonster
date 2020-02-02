@@ -13,9 +13,8 @@ if (makeArena == true)
 		ds_list_add(tempList, rndVal);
 	}
 
-	var rndPos = round(random_range(1, array_length_1d(arrTemplates)-1));
+	var rndPos = round(random_range(0, ds_list_size(tempList)-1));
 	ds_list_set(tempList, rndPos, 0);
-
 
 	var xi = 0;
 	var yi = 0;

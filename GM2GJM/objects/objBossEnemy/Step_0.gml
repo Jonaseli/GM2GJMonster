@@ -1,12 +1,4 @@
 
-/*
-		var len = random_range(96, 384);
-		var dir = (360 / enemyCount) * i;
-		
-		var xPos = lengthdir_x(len, dir);
-		var yPos = lengthdir_y(len, dir);
-*/
-
 //Move in a cicle
 
 if(enemiesToSpawn > enemiesSpawned){

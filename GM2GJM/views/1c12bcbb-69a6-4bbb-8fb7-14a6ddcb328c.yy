@@ -7,7 +7,8 @@
         "e24a7677-3b33-4872-a9c2-cf320084b5ab",
         "0257a344-7b4f-444c-9246-03ff8097115a",
         "ae772c15-9cbd-4d6a-a2dc-ae7e8fec9a72",
-        "bba7daca-6795-498d-95f8-ae91590824df"
+        "bba7daca-6795-498d-95f8-ae91590824df",
+        "b2bedfd3-fe34-4f2f-904b-4e525efd2481"
     ],
     "filterType": "GMObject",
     "folderName": "Stats",

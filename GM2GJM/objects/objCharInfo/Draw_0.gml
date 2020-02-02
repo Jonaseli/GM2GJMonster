@@ -1,5 +1,4 @@
-if (characterText != undefined)
+if (characterText != undefined && characterName != undefined)
 {
-	draw_text_color(x, y - 32, "Info: ", c_red, c_red, c_red, c_red, 1);
-	draw_text(x, y, characterText);
+	draw_text_color(x, y - 32, characterName, textColor, textColor, textColor, textColor, 1);
 }
