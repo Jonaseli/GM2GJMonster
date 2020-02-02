@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "979d48a5-442e-4fe2-a05d-cadc802cf91f",
+            "Value": {
+                "id": "f3c39e1b-8ae6-4746-be62-94289246aba4",
+                "resourcePath": "objects\\objEnemyMelee\\objEnemyMelee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6e1df3e-b652-49df-b788-dd614bfa30b6",
             "Value": {
                 "id": "4f21b76e-9034-43ba-906d-85ddfadaa0df",
