@@ -6,7 +6,6 @@ if (obj.levelType != undefined) // create enemy data structure
 {	
 	currentLevel++;
 	balanceValue += 0.25;
-	
 	var array;
 	
 	if (obj.levelType = "chaos") array = obj.arrChaos;

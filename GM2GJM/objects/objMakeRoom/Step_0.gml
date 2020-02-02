@@ -22,7 +22,8 @@ if (grid != undefined)
 					break;
 					
 				case 3:
-					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objMummy);
+					show_message("Case 3");
+					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objLevelManager.character);
 					break;
 				
 				case 4:

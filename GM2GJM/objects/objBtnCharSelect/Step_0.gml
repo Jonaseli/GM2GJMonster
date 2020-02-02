@@ -11,6 +11,7 @@ if (position_meeting(mouse_x, mouse_y, id))
 	objCharInfo.characterText = infoText;
 	objCharInfo.characterName = characterName;
 	objCharInfo.textColor = textColor;
+	objCharInfo.flavorText = flavorText;
 	// visuals
 	image_alpha = 1;
 }

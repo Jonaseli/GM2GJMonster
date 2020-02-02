@@ -1,2 +1,2 @@
 /// @description modifiers
-
+playerType = undefined;
