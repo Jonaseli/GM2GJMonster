@@ -1,3 +1,3 @@
 /// @description Insert description here
-pause = true;
-mainMenu = true;
+image_speed = 0;
+image_index = 0;

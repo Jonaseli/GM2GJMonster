@@ -6,10 +6,12 @@
     "children": [
         "4fb2716a-e1a0-4cd7-a52e-650c6b302754",
         "90cc2884-471e-432d-8a3b-6a32a8a21afc",
+        "8196c146-4bee-4771-923a-2af3d9a7159a",
         "fe9be01a-5794-46c5-83fe-6ef2fcb3e4cb",
-        "ed0db69e-ff17-47db-9e96-bdcfea1b2631",
+        "dfb597ed-41d8-4a99-9ced-645cd9c3e976",
         "86b4eff1-4d52-496c-be7c-d5b2d1b26ddb",
-        "dfb597ed-41d8-4a99-9ced-645cd9c3e976"
+        "ed0db69e-ff17-47db-9e96-bdcfea1b2631",
+        "1ffc4fb8-89c7-4e14-88d5-448268dc617b"
     ],
     "filterType": "GMObject",
     "folderName": "game",

@@ -1,18 +1,27 @@
 /// @description Spawn enemies
 if (levelType != undefined) // create enemy data structure
 {
+	// spawn playable character
+	if (currentLevel == 0 && character != undefined)
+	{
+		instance_create_layer(objPointArena.x, objPointArena.y, "layer_player", character);
+	}
+	
+	currentLevel++;
+	balanceValue += 0.25;
+	
 	var array;
 	var enemyCount;
 	
 	if (levelType = "chaos")
 	{
 		array = arrChaos;
-		enemyCount = round(random_range(1, 2));
+		enemyCount = round(random_range(5, 8));
 	}
 	if (levelType = "tough")
 	{
 		array = arrTough;
-		enemyCount = round(random_range(1, 2));
+		enemyCount = round(random_range(3, 4));
 	}
 	if (levelType = "loot")
 	{
@@ -31,7 +40,7 @@ if (levelType != undefined) // create enemy data structure
 		var rndIndex = round(random_range(0,array_length_1d(array)-1));
 		var enemyType = array[rndIndex];
 		// spawn settings
-		var len = random_range(96, 130);
+		var len = random_range(96, 384);
 		var dir = (360 / enemyCount) * i;
 		
 		var xPos = lengthdir_x(len, dir);
@@ -42,11 +51,13 @@ if (levelType != undefined) // create enemy data structure
 			(room_height / 6) * 5 + yPos,
 			"layer_enemy", enemyType
 		);
+	
+		enemy.difficultyModifier += currentLevel/balanceValue;
 	}
-
-
+	
+	
 	levelType = undefined;
 }
 
-// enemy counter
+// counters
 enemyCounter = instance_number(objEnemy);

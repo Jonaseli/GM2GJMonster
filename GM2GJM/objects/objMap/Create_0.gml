@@ -1,4 +1,4 @@
-
+/// @description Create map
 amount = 6;
 indent = 128;
 list_btns = ds_list_create();
@@ -10,7 +10,7 @@ for (var i = 0; i < amount; i++)
 	var scope = 256;
 	var rndAmount;
 	if (i == 0 || (i == amount-1)) rndAmount = 1;
-	else rndAmount = floor(random_range(1, 2.25));
+	else rndAmount = floor(random_range(1.75, 2.75));
 	
 	var prevX = 999999;
 	var prevLvl = "lol";
@@ -40,8 +40,9 @@ for (var i = 0; i < amount; i++)
 			var rndLvl = random_range(0, 100);
 			if (rndLvl > 0) levelType = "chaos";
 			if (rndLvl > 50) levelType = "tough";
-			if (rndLvl > 80) levelType = "loot";
-			if (rndLvl > 95) levelType = "boss";
+			if (i == amount-1) levelType = "boss";
+			if (i == round(amount/2) && (prevLvl == "chaos" || prevLvl == "tough")) levelType = "loot";
+			
 			
 			loop = false;
 			if (prevLvl == levelType) loop = true;

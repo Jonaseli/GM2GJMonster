@@ -7,7 +7,6 @@ if (objLevelManager.currentLevel = btnId && objLevelManager.enemyCounter == 0)
 		var mb_pressed = mouse_check_button_pressed(mb_left);
 		if (mb_pressed)
 		{
-			objLevelManager.currentLevel++;
 			objLevelManager.levelType = levelType;
 			objMenu.pause = false;
 			// visuals

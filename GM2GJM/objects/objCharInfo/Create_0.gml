@@ -1,0 +1,1 @@
+characterText = undefined;
