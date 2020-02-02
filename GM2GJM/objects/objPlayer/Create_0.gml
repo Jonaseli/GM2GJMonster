@@ -15,7 +15,7 @@ baseHealth = health *vitality;
 remainingHP = baseHealth;
 baseDmg = 1* strength;
 
-baseAttackSpeed = 0 + dexterity;
+baseAttackSpeed = 120;
 //mouse handling
 pressedIsTrue = false;
 

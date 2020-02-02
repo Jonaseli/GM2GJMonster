@@ -12,3 +12,4 @@ vitality = 1;
 strength = 1;
 dexterity = 1;
 
+alarm[2] = room_speed * 2;

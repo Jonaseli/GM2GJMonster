@@ -5,3 +5,4 @@
 event_inherited();
 
 maintainedDistance = 150;
+alarm[2] = room_speed * 3;

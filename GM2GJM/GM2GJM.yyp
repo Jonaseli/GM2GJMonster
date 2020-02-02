@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "068eeae0-fa9f-4953-b602-c07c73ae6d6d",
+            "Value": {
+                "id": "b4ddc635-2d51-47b0-8c7c-f729f15732b4",
+                "resourcePath": "objects\\objEnemyBullet\\objEnemyBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b9fda43-c012-47eb-b7a1-dcd12f01b76e",
             "Value": {
                 "id": "3676872e-6ec6-4b3f-80ce-eb4d8da0d95c",
@@ -129,7 +137,7 @@
         {
             "Key": "2be9db4c-cfb4-4cad-904e-35fb006d7808",
             "Value": {
-                "id": "58c38c8a-25d7-4bc1-b07c-e3ccfc64f2c9",
+                "id": "b666be6d-8832-4d4c-bbd8-410d7ae3c92c",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
             }
@@ -177,7 +185,7 @@
         {
             "Key": "3dd330b2-695d-4acd-a88f-1176ab3770a3",
             "Value": {
-                "id": "c8bdeb5e-b774-464d-bc11-0b0f64005d24",
+                "id": "d3eaaf1e-d18f-42c7-905e-ca493dddd095",
                 "resourcePath": "objects\\objPoliceDog\\objPoliceDog.yy",
                 "resourceType": "GMObject"
             }
@@ -193,7 +201,7 @@
         {
             "Key": "43efaad5-f3a1-4689-ac9c-709fe8bec759",
             "Value": {
-                "id": "d3e06673-fbec-44ca-ad3d-b766987b49e3",
+                "id": "8d17a439-5695-49d1-a386-49147243bc86",
                 "resourcePath": "objects\\objSoldier\\objSoldier.yy",
                 "resourceType": "GMObject"
             }
@@ -233,7 +241,7 @@
         {
             "Key": "5522db46-b0dc-403e-a5c9-d0f585cbc08b",
             "Value": {
-                "id": "db2ad611-8045-466f-84a6-6c2723aae9dd",
+                "id": "7e0b814e-ff94-46d5-aa82-b22d4b40fa8f",
                 "resourcePath": "objects\\objMummy\\objMummy.yy",
                 "resourceType": "GMObject"
             }
@@ -353,7 +361,7 @@
         {
             "Key": "7bcb0f07-6219-411e-9f48-fb8fd38bcdf7",
             "Value": {
-                "id": "674d04dd-6d92-4400-b382-b855d292a670",
+                "id": "d1a93aec-924c-4b98-b7b4-67308a4c9a83",
                 "resourcePath": "objects\\objCitizen\\objCitizen.yy",
                 "resourceType": "GMObject"
             }
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "979d48a5-442e-4fe2-a05d-cadc802cf91f",
+            "Value": {
+                "id": "06d1887e-6d90-42c5-9bf4-b041f7d88da8",
+                "resourcePath": "objects\\objEnemyMelee\\objEnemyMelee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6e1df3e-b652-49df-b788-dd614bfa30b6",
             "Value": {
                 "id": "4f21b76e-9034-43ba-906d-85ddfadaa0df",
@@ -505,7 +521,7 @@
         {
             "Key": "b8fd6483-19d9-4acd-86c2-0b31dde0dd91",
             "Value": {
-                "id": "122620db-738e-48d4-9f35-e17c93972189",
+                "id": "d7148fd9-e3b5-4f41-897c-b6d52275845b",
                 "resourcePath": "objects\\objPoliceOfficer\\objPoliceOfficer.yy",
                 "resourceType": "GMObject"
             }
@@ -523,6 +539,14 @@
             "Value": {
                 "id": "96688e15-5fbd-40d2-823f-c0cc59d34c53",
                 "resourcePath": "objects\\objText\\objText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc5ca785-6d69-4c31-9518-24cbf7b28837",
+            "Value": {
+                "id": "04efa189-2228-4d6a-9be7-260d38a18114",
+                "resourcePath": "objects\\objMummyBullet\\objMummyBullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -545,7 +569,7 @@
         {
             "Key": "c14f6a67-609e-4548-bd3b-b884022ed1b2",
             "Value": {
-                "id": "1328c681-c078-4aed-90a5-2e2a4d3b96a1",
+                "id": "587552ed-1b95-43e5-84ad-d3e881443156",
                 "resourcePath": "objects\\objEnemy\\objEnemy.yy",
                 "resourceType": "GMObject"
             }
@@ -553,7 +577,7 @@
         {
             "Key": "c79faa5d-286e-4127-bc1f-fec0523b7e59",
             "Value": {
-                "id": "d6ee10be-3702-47a8-9b1c-cf8e21e84389",
+                "id": "eb5e53ef-cc21-428e-85ca-9f4a07f025d5",
                 "resourcePath": "objects\\objWerewolf\\objWerewolf.yy",
                 "resourceType": "GMObject"
             }
@@ -561,7 +585,7 @@
         {
             "Key": "cc81d2b3-bfe3-4f47-8059-6f3c834607fa",
             "Value": {
-                "id": "53a75a0f-f48c-42e3-9559-18c59acda81b",
+                "id": "8a196289-4f7f-4a93-9940-fbdbb619de11",
                 "resourcePath": "objects\\objVampire\\objVampire.yy",
                 "resourceType": "GMObject"
             }

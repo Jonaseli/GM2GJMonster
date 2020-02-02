@@ -1,7 +1,7 @@
 difficultyModifier = 1;
 
 baseHP = 1;
-baseDmg = 1;
+baseDmg = 30;
 baseAttackSpeed = 1;
 
 vitality = 1 * difficultyModifier;

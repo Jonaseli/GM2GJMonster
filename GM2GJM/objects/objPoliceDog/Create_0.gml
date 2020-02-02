@@ -6,3 +6,5 @@ event_inherited();
 
 movementSpeed = 10;
 agroRange = 500;
+
+alarm[2] = room_speed *0.5;

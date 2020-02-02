@@ -12,5 +12,5 @@ if(mouse_check_button(mb_right)){
 		thisMouse_y = mouse_y;
 
 		alarm[1] = (room_speed - 40) / specialSpeed;
-		specialSpeed = 0;
+		specialSpeed -= 0.1;
 	}

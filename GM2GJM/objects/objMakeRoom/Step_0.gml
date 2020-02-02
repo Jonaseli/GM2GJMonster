@@ -22,7 +22,7 @@ if (grid != undefined)
 					break;
 					
 				case 3:
-					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objWerewolf);
+					instance_create_layer(x + indent * j, y + indent * i, "layer_map", objMummy);
 					break;
 				
 				case 4:
