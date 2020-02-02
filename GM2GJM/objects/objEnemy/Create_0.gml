@@ -11,11 +11,12 @@ dexterity = 1 * difficultyModifier;
 movementSpeed = 2.2;
 agroRange = 300;
 maintainedDistance = 1;
-strollDistance = 50;
+strollDistance = 350;
 
 remainingHP = baseHP * vitality;
 damage = baseDmg * strength;
 attackSpeed = baseAttackSpeed * dexterity;
 
-randX = 0;
-randY = 0;
+chosenX = x;
+chosenY = y;
+

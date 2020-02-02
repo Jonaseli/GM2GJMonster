@@ -7,9 +7,7 @@ if (distance_to_object(objPlayer) < agroRange){
 	if (alarm[1] == -1){
 		alarm[1] = room_speed * 5;
 	}
-	mp_potential_step(randX, randY,  movementSpeed, true)
-	//if (alarm[1] == -1)
-	//alarm[1] = room_speed * 5;
+	mp_potential_step(chosenX, chosenY,  movementSpeed, true)
 }
 
 //Kill object if HP <= 0
